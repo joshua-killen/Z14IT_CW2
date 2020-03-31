@@ -1,3 +1,31 @@
+@font-face {
+    font-family: "Neon80";
+    src: url(sitewide_assets/fonts/neon80/neon.ttf);
+}
+
+@font-face {
+    font-family: "Arvo";
+    src: url(sitewide_assets/fonts/arvo/arvo-regular.ttf);
+}
+
+
+body {
+    background-color: #404040;
+    font-family: arvo;
+}
+
 h1 {
-    color: aqua
+    font-family: neon80;
+}
+
+h2 {
+    font-family: neon80;
+}
+
+p {
+    font-size: 18px;
+}
+
+.uniLogo {
+    
 }
