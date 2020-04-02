@@ -51,49 +51,56 @@
         </div>
     
         <link rel="stylesheet" href="osi_model.css" type="text/css">
+        <script type="text/javascript" src="osi_model.js"></script>
     </head>
     
     <body>
         <h1>OSI Model</h1>
                 <div class="osiDrop">
-                    <div class="sevenDropBtn" onclick="7Drop()">Layer 7<div class="arrow">v</div></div>
-                    <div class="7Drop-content" id="7Drop">
+                    <div class="oddBtn"><div><a class="sevenBtn" id="sevenDropBtn" onclick="sevenDrop()">Layer 7</a></div><div class="arrowOdd"><img src="arrow.png" alt="v" width="16" height="16"></div></div>
+                    <div class="osiODrop-content" id="sevenDrop">
+                        <p>asdasd</p>
+                    </div>
+                </div><br>
+                <div class="osiDrop">
+                    <div class="evenBtn" id="sixDropBtn" onclick="6Drop()">Layer 6</div><div class="arrowEven"><img src="arrow.png" alt="v" width="16" height="16"></div>
+                    <div class="osiEDrop-content" id="6Drop">
                         <p></p>
                     </div>
                 </div><br>
                 <div class="osiDrop">
-                    <div class="sixDropBtn" onclick="6Drop()">Layer 6<div class="arrow">v</div></div>
-                    <div class="6Drop-content" id="6Drop">
+                    <div class="oddBtn" id="fiveDropBtn" onclick="5Drop()">Layer 5</div><div class="arrowOdd"><img src="arrow.png" alt="v" width="16" height="16"></div>
+                    <div class="osiODrop-content" id="5Drop">
                         <p></p>
                     </div>
                 </div><br>
                 <div class="osiDrop">
-                    <div class="fiveDropBtn" onclick="5Drop()">Layer 5<div class="arrow">v</div></div>
-                    <div class="5Drop-content" id="5Drop">
+                    <div class="evenBtn" id="fourDropBtn" onclick="4Drop()">Layer 4</div><div class="arrowEven"><img src="arrow.png" alt="v" width="16" height="16"></div>
+                    <div class="osiEDrop-content" id="4Drop">
                         <p></p>
                     </div>
                 </div><br>
                 <div class="osiDrop">
-                    <div class="fourDropBtn" onclick="4Drop()">Layer 4<div class="arrow">v</div></div>
-                    <div class="4Drop-content" id="4Drop">
+                    <div class="oddBtn" id="threeDropBtn" onclick="3Drop()">Layer 3</div><div class="arrowOdd"><img src="arrow.png" alt="v" width="16" height="16"></div>
+                    <div class="osiODrop-content" id="3Drop">
                         <p></p>
                     </div>
                 </div><br>
                 <div class="osiDrop">
-                    <div class="threeDropBtn" onclick="3Drop()">Layer 3<div class="arrow">v</div></div>
-                    <div class="3Drop-content" id="3Drop">
+                    <div class="evenBtn" id="twoDropBtn" onclick="2Drop()">Layer 2</div><div class="arrowEven"><img src="arrow.png" alt="v" width="16" height="16"></div>
+                    <div class="osiEDrop-content" id="2Drop">
                         <p></p>
                     </div>
                 </div><br>
                 <div class="osiDrop">
-                    <div class="twoDropBtn" onclick="2Drop()">Layer 2<div class="arrow">v</div></div>
-                    <div class="2Drop-content" id="2Drop">
+                    <div class="oddBtn" id="oneDropBtn" onclick="1Drop()">Layer 1</div><div class="arrowOdd"><img src="arrow.png" alt="v" width="16" height="16"></div>
+                    <div class="osiODrop-content" id="1Drop">
                         <p></p>
                     </div>
                 </div><br>
                 <div class="osiDrop">
-                    <div class="oneDropBtn" onclick="1Drop()">Layer 1<div class="arrow">v</div></div>
-                    <div class="1Drop-content" id="1Drop">
+                    <div class="evenBtn" id="refDropBtn" onclick="refDrop()">References</div><div class="arrowEven"><img src="arrow.png" alt="v" width="16" height="16"></div>
+                    <div class="osiEDrop-content" id="refDrop">
                         <p></p>
                     </div>
                 </div><br>

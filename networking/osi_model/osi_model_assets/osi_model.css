@@ -1,154 +1,53 @@
 .osiDrop {
-    text-align: left;
+    text-align: center;
     overflow: hidden;
 }
 
-.arrow {
-    text-align: right;
+ .arrowOdd {
+    background-color: blue;
+    text-align: inherit;
 }
 
-.osiDrop .sevenDropBtn {
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: #f2f2f2;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-.osiDrop .sixDropBtn {
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: #f2f2f2;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-.osiDrop .fiveDropBtn {
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: #f2f2f2;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-.osiDrop .fourDropBtn {
+.arrowEven {
     background-color: black;
+    text-align: inherit;
+}
+
+.osiDrop .oddBtn {
     cursor: pointer;
     font-size: 16px;
     border: none;
     outline: none;
     color: #f2f2f2;
-    padding: 14px 16px;
+    background-color: blue;
     font-family: inherit;
     margin: 0;
 }
 
-.osiDrop .threeDropBtn {
+.osiDrop .evenBtn {
     cursor: pointer;
     font-size: 16px;
     border: none;
     outline: none;
     color: #f2f2f2;
-    padding: 14px 16px;
-    background-color: inherit;
+    background-color: black;
     font-family: inherit;
     margin: 0;
 }
 
-.osiDrop .twoDropBtn {
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: #f2f2f2;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-.osiDrop .oneDropBtn {
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: #f2f2f2;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-.7Drop-content {
+.osiODrop-content {
     display: none;
     position: absolute;
-    background-color: #373737;
+    background-color: blue;
     color: #ddd;
     min-width: 160px;
     z-index: 1;
 }
 
-.6Drop-content {
+.osiEDrop-content {
     display: none;
     position: absolute;
-    background-color: #373737;
-    color: #ddd;
-    min-width: 160px;
-    z-index: 1;
-}
-
-.5Drop-content {
-    display: none;
-    position: absolute;
-    background-color: #373737;
-    color: #ddd;
-    min-width: 160px;
-    z-index: 1;
-}
-
-.4Drop-content {
-    display: none;
-    position: absolute;
-    background-color: #373737;
-    color: #ddd;
-    min-width: 160px;
-    z-index: 1;
-}
-
-.3Drop-content {
-    display: none;
-    position: absolute;
-    background-color: #373737;
-    color: #ddd;
-    min-width: 160px;
-    z-index: 1;
-}
-
-.2Drop-content {
-    display: none;
-    position: absolute;
-    background-color: #373737;
-    color: #ddd;
-    min-width: 160px;
-    z-index: 1;
-}
-
-.1Drop-content {
-    display: none;
-    position: absolute;
-    background-color: #373737;
+    background-color: blue;
     color: #ddd;
     min-width: 160px;
     z-index: 1;
