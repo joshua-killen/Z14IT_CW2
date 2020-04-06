@@ -52,3 +52,7 @@
     min-width: 160px;
     z-index: 1;
 }
+
+.osiOshow {
+    display: block;
+}
