@@ -1,112 +1,68 @@
 <!DOCTYPE html>
-<html>
-    
-    <head>
+<html lang="en">
+<head>
+        
         <meta name="keywords" content="Internet Fundamentals, Networking, Web Design, University, Coventry, CUC, 2020, CW2">
         <meta name="description" content="An accessible, online resource for learning the fundamentals of the internet, web design, and networking. This was created for coursework for unit Z14IT 2020 by Joshua Killen Student ID: 9449871">
         <meta name="author" content="Joshua Killen">
         <meta http-equiv="refresh" content="60">
         <meta name="viewport" content="width=device-width, initial=scale=1.0">
-        <meta charset="utf-8">
         
+        <base href="networking/osi_model/osi_model_assets/" target ="_self">
+    
         <link rel="stylesheet" href="../../main.css" type="text/css">
         <link rel="stylesheet" href="../../sitewide_assets/navbar/navbar.css" type="text/css">
-        <script type="text/javascript" src="../../sitewide_assets/navbar/navbar.js"></script>
-        
-        <base href="osi_model_assets/" target ="_self">
+        <link rel="stylesheet" href="osi_model.css" type="text/css">
+        <script src="osi_model.js"></script>
+        <script src="../../sitewide_assets/navbar/navbar.js"></script>
         
         <title>Networking-OSI Model: Z14IT-Internet Fundamentals</title>
         <img src="../../../sitewide_assets/logo.gif" alt="JKLearns">
-        <img class="uniLogo" src="../../../sitewide_assets/cuc_logo.png" alt="CU Coventry" width="259" height="59" align="right">
-
-        <div class="navBar" id="navBar">
-            <a href="../../../home/home.html">Home</a>
-            <a href="../../../evolution_of_the_internet/eoti.html">Evolution of The Internet</a>
-            <div class="dropDown">
-                <button class="networkDropBtn" onclick="networkDrop()">Networking</button>
-                <div class="networkDrop-content" id="networkDrop">
-                    <a class="active" href="../osi_model.html">OSI Model</a>
-                    <a href="../../routing/routing.html">Routing</a>
-                    <a href="../../internet_protocols/ip.html">Internet Protocols</a>
-                    <a href="../../ipv4/ipv4.html">IPv4</a>
-                    <a href="../../ipv6/ipv6.html">IPv6</a>
-                    <a href="../../tcp/tcp.html">TCP</a>
-                    <a href="../../udp/udp.html">UDP</a>
-                    <a href="../../internet_name_resolution/inr.html">Internet Name Resolution</a>
-                    <a href="../../pop/pop.html">PoP</a>
-                    <a href="../../dns/dns.html">DNS</a>
-                    <a href="../../dchp/dchp.html">DCHP</a>
-                </div>
-            </div>
-            <div class="dropDown">
-                <button class="webDropBtn" onclick="webDrop()">Web Design</button>
-                <div class="webDrop-content" id="webDrop">
-                    <a href="../../../website_design/html/html.html">HTML</a>
-                    <a href="../../../website_design/css/css.html">CSS</a>
-                    <a href="../../../website_design/javascript/javascript.html">JavaScript</a>
-                </div>
-            </div>
-            <a href="../../../contact/contact.html">Contact</a>
-            <a href="../../../about/about.html">About</a>
-        </div>
-    
-        <link rel="stylesheet" href="osi_model.css" type="text/css">
-        <script type="text/javascript" src="osi_model.js"></script>
-    </head>
-    
+        <img class="uniLogo" src="../../../sitewide_assets/cuc_logo.png" alt="CU Coventry" width="259" height="59">
+</head>
     <body>
+        <header>
+            <div class="navBar" id="navBar">
+                <a href="../../../home/home.html">Home</a>
+                <a href="../../../evolution_of_the_internet/eoti.html">Evolution of The Internet</a>
+                <div class="dropDown">
+                    <button class="networkDropBtn" onclick="networkDrop()">Networking</button>
+                    <div class="networkDrop-content" id="networkDrop">
+                        <a class="active" href="../osi_model.html">OSI Model</a>
+                        <a href="../../routing/routing.html">Routing</a>
+                        <a href="../../internet_protocols/ip.html">Internet Protocols</a>
+                        <a href="../../ipv4/ipv4.html">IPv4</a>
+                        <a href="../../ipv6/ipv6.html">IPv6</a>
+                        <a href="../../tcp/tcp.html">TCP</a>
+                        <a href="../../udp/udp.html">UDP</a>
+                        <a href="../../internet_name_resolution/inr.html">Internet Name Resolution</a>
+                        <a href="../../pop/pop.html">PoP</a>
+                        <a href="../../dns/dns.html">DNS</a>
+                        <a href="../../dchp/dchp.html">DCHP</a>
+                    </div>
+                </div>
+                <div class="dropDown">
+                    <button class="webDropBtn" onclick="webDrop()">Web Design</button>
+                    <div class="webDrop-content" id="webDrop">
+                        <a href="../../../website_design/html/html.html">HTML</a>
+                        <a href="../../../website_design/css/css.html">CSS</a>
+                        <a href="../../../website_design/javascript/javascript.html">JavaScript</a>
+                    </div>
+                </div>
+                <a href="../../../contact/contact.html">Contact</a>
+                <a href="../../../about/about.html">About</a>
+            </div>
+        </header>
+    
         <h1>OSI Model</h1>
-                <div class="osiDrop">
-                    <div class="oddBtn"><div><a class="sevenBtn" id="sevenDropBtn" onclick="sevenDrop()">Layer 7</a></div><div class="arrowOdd"><img src="arrow.png" alt="v" width="16" height="16"></div></div>
-                    <div class="osiODrop-content" id="sevenDrop">
-                        <p>asdasd</p>
-                    </div>
-                </div><br>
-                <div class="osiDrop">
-                    <div class="evenBtn" id="sixDropBtn" onclick="6Drop()">Layer 6</div><div class="arrowEven"><img src="arrow.png" alt="v" width="16" height="16"></div>
-                    <div class="osiEDrop-content" id="6Drop">
-                        <p></p>
-                    </div>
-                </div><br>
-                <div class="osiDrop">
-                    <div class="oddBtn" id="fiveDropBtn" onclick="5Drop()">Layer 5</div><div class="arrowOdd"><img src="arrow.png" alt="v" width="16" height="16"></div>
-                    <div class="osiODrop-content" id="5Drop">
-                        <p></p>
-                    </div>
-                </div><br>
-                <div class="osiDrop">
-                    <div class="evenBtn" id="fourDropBtn" onclick="4Drop()">Layer 4</div><div class="arrowEven"><img src="arrow.png" alt="v" width="16" height="16"></div>
-                    <div class="osiEDrop-content" id="4Drop">
-                        <p></p>
-                    </div>
-                </div><br>
-                <div class="osiDrop">
-                    <div class="oddBtn" id="threeDropBtn" onclick="3Drop()">Layer 3</div><div class="arrowOdd"><img src="arrow.png" alt="v" width="16" height="16"></div>
-                    <div class="osiODrop-content" id="3Drop">
-                        <p></p>
-                    </div>
-                </div><br>
-                <div class="osiDrop">
-                    <div class="evenBtn" id="twoDropBtn" onclick="2Drop()">Layer 2</div><div class="arrowEven"><img src="arrow.png" alt="v" width="16" height="16"></div>
-                    <div class="osiEDrop-content" id="2Drop">
-                        <p></p>
-                    </div>
-                </div><br>
-                <div class="osiDrop">
-                    <div class="oddBtn" id="oneDropBtn" onclick="1Drop()">Layer 1</div><div class="arrowOdd"><img src="arrow.png" alt="v" width="16" height="16"></div>
-                    <div class="osiODrop-content" id="1Drop">
-                        <p></p>
-                    </div>
-                </div><br>
-                <div class="osiDrop">
-                    <div class="evenBtn" id="refDropBtn" onclick="refDrop()">References</div><div class="arrowEven"><img src="arrow.png" alt="v" width="16" height="16"></div>
-                    <div class="osiEDrop-content" id="refDrop">
-                        <p></p>
-                    </div>
-                </div><br>
+        
+        <footer>
         <div class="footer">
             <a class="about" href="../../../../about/about.html">About the Website</a><br>
-            <a class="contact" href="../../../../contact/contact.html">Contact Us</a>
+            <a href="../../../sitewide_assets/bibliography.pdf" download="KILLEN_Joshua_Bibliography" target="_blank">Bibliography</a><br>
+            <a class="contact" href="../../../../contact/contact.html">Contact Us</a><br>
+            <a class="sitemap" href="">Sitemap</a>
             </div>
+        </footer>
     </body>
 </html>

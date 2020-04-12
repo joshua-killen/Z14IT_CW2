@@ -45,7 +45,7 @@
     margin: 0;
 }
 
-.navBar .a:hover .dropDown .networkDropBtn {
+.networkDropBtn:hover {
     background-color: #ddd;
     color: black;
 }
@@ -85,7 +85,7 @@
     margin: 0;
 }
 
-.navBar .a:hover .dropDown .webDropBtn {
+.navBar .webDropBtn:hover {
     background-color: #ddd;
     color: black;
 }
