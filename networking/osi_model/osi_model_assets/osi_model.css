@@ -8,10 +8,7 @@ h1 {
 
 .osiContent {
     font-family: arvo;
-}
-
-.osiDrop {
-    margin-bottom: 10vmax;
+    font-size: 1.5vw;
 }
 
 summary {
