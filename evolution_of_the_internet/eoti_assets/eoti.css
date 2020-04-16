@@ -1,8 +1,3 @@
-summary {
-  list-style-image: url("");
-}
-
-summary::-webkit-details-marker {
-  background: url("");
-  color: transparent;
+details summary::-webkit-details-marker {
+  display:none;
 }
