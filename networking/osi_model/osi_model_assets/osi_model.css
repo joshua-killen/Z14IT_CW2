@@ -5,3 +5,12 @@
 .osiContent {
     font-family: arvo;
 }
+
+summary {
+  list-style-image: url(arrow.png);
+}
+
+summary::-webkit-details-marker {
+  background: url(arrow.png);
+  color: transparent;
+}
