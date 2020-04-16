@@ -10,6 +10,10 @@ h1 {
     font-family: arvo;
 }
 
+.osiDrop {
+    padding-bottom: 1vmax;
+}
+
 summary {
   list-style-image: url(arrow.png);
 }
