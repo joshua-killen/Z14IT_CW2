@@ -1,17 +1,17 @@
 function search() {
-  var input, filter, ul, li, a, i, txtValue;
+  var input, filter, list, listElement, details, i, txtValue;
   input = document.getElementById('searchInput');
   filter = input.value.toUpperCase();
-  ul = document.getElementById("referenceList");
-  li = ul.getElementsByTagName('li');
+  list = document.getElementById("referenceList");
+  listElement = list.getElementsByTagName('li');
     
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("details")[0];
-    txtValue = a.textContent || a.innerText;
+  for (i = 0; i < listElement.length; i++) {
+    details = listElement[i].getElementsByTagName("details")[0];
+    txtValue = details.textContent || details.innerText;
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
+      listElement[i].style.display = "";
     } else {
-      li[i].style.display = "none";
+      listElement[i].style.display = "none";
     }
   }
 }
