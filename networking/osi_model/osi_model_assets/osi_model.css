@@ -1,15 +1,10 @@
 .osiTitle {
     font-family: neon80;
-    font-size: 16vw;
+    font-size: 0.15vw;
 }
 
 .osiContent {
     font-family: arvo;
-}
-
-.sevenDrop {
-    height: 16vh;
-    width: 16vw;
 }
 
 summary {
