@@ -7,6 +7,11 @@
     font-family: arvo;
 }
 
+.sevenDrop {
+    height: 16vh;
+    width: 16vw;
+}
+
 summary {
   list-style-image: url(arrow.png);
 }
