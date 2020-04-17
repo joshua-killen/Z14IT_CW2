@@ -44,12 +44,9 @@ p .aboutTitle {
 .headImg {
     background-image: url(internet.png);
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding-top: 0;
     padding-bottom: 50.2em;
-}
-
-.headImg img{
-    width: 100vw;
 }
 
 #jkillen {
