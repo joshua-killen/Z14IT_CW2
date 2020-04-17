@@ -31,6 +31,7 @@ p {
 
 p .aboutContent {
     font-size: 1em;
+    padding-left: 1em;
 }
 
 p .aboutTitle {
@@ -51,7 +52,7 @@ p .aboutTitle {
 
 
 #jkillen {
-    padding-left: 8px;
+    padding-left: 0.25em;
 }
 
 #uniContent:after {
