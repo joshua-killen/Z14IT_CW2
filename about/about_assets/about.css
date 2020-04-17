@@ -44,9 +44,9 @@ p .aboutTitle {
 .headImg {
     background-image: url(internet.png);
     background-repeat: no-repeat;
-    background-size: 100% 80%;
+    background-size: 100% 100%;
     padding-top: 0;
-    padding-bottom: 40.16em;
+    padding-bottom: 25em;
 }
 
 
