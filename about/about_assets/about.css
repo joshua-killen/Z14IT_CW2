@@ -36,6 +36,6 @@ p .aboutTitle {
     clear: both;
 }
 
-details summary:after {
-    content: "";
+summary::-webkit-details-marker {
+  background: none;
 }
