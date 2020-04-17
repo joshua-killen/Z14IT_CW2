@@ -25,9 +25,13 @@ h2 {
 
 summary {
     list-style-type: none;
-    list-style-image: url(sitewide_assets/power-16x18.png)
+    list-style-image: url(sitewide_assets/power_red.png);
     cursor: pointer;
     
+}
+
+details[open] summary {
+    list-style-image: url(sitewide_assets/power_green.png);
 }
 
 .title {
