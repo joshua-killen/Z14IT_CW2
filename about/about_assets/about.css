@@ -44,3 +44,8 @@ summary {
 #jkillen {
     padding-left: 8px;
 }
+
+#uniContent:after {
+    content: "+"
+}
+
