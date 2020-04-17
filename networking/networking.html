@@ -25,8 +25,14 @@
             <div class="navBar" id="navBar">
                 <a href="../../home/home.html">Home</a>
                 <a href="../../evolution_of_the_internet/eoti.html">Evolution of The Internet</a>
-                <a class="active" href="../../networking/networking.html">Networking</a>
-                <a class="active" href="../../osi_model/osi_model.html">OSI Model</a>
+                <div class="dropDown">
+                    <button class="networkDropBtn" onclick="networkDrop()">Networking</button>
+                    <div class="networkDrop-content" id="networkDrop">
+                        <a href="../../networking/networking.html">Fundamentals</a>
+                        <a href="../../internet_protocol/internet_protocol.html">Internet Protocol</a>
+                        <a class="active" href="../../osi_model/osi_model.html">OSI Model</a>
+                    </div>
+                </div>
                 <div class="dropDown">
                     <button class="webDropBtn" onclick="webDrop()">Web Design</button>
                     <div class="webDrop-content" id="webDrop">
@@ -40,7 +46,7 @@
             </div>
         </header>
         
-        <h1>Networking Fundamentals</h1>
+        <h1>Internet Protocols</h1>
         
         <article>
             <details open>
