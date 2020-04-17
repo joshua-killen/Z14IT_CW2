@@ -27,6 +27,10 @@ p {
     font-size: 1.5vw;
 }
 
+summary {
+    font-size: 2vw
+}
+
 .footer {
     background-color: #0d0d0d;
     padding-top: 25px;
