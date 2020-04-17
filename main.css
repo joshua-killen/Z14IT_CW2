@@ -22,12 +22,16 @@ h2 {
     font-family: neon80;
 }
 
+details {
+    font-size: 4vw;
+}
+
 p {
-    font-size: 1.5vw;
+    font-size: 0.5em;
 }
 
 summary {
-    font-size: 2vw
+    font-size: 1em
 }
 
 abbr {
