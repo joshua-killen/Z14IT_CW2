@@ -23,7 +23,7 @@ h2 {
     font-family: neon80;
 }
 
-abbr .title {
+.title {
   border-bottom: none;
   cursor: inherit;
   text-decoration: none;
