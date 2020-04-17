@@ -23,6 +23,13 @@ h2 {
     font-family: neon80;
 }
 
+summary {
+    list-style-type: none;
+    list-style-image: url(sitewide_assets/power-16x18.png)
+    cursor: pointer;
+    
+}
+
 .title {
   border-bottom: none;
   cursor: inherit;

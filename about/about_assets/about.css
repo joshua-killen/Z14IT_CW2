@@ -2,11 +2,6 @@ article img {
     border: 4px solid #f2f2f2;
 }
 
-summary {
-    list-style-type: none;
-    cursor: pointer;
-}
-
 .imgLeft {
     float: left;
     margin-right: 0.4em;
