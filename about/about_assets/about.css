@@ -7,15 +7,15 @@ article {
     font-size: 4vw;
 }
 
-.aboutMe {
-    font-size: 4vw
+p {
+    font-size: 0.25em
 }
 
-article .aboutContent {
-    font-size: 0.25em;
+p .aboutContent {
+    font-size: 1em;
 }
 
-article .aboutTitle {
+p .aboutTitle {
     font-family: neon80;
-    font-size: 0.5em;
+    font-size: 2em;
 }
