@@ -16,6 +16,10 @@ article img {
     font-size: 0.5em
 }
 
+summary .aboutContent {
+    font-size: 0.25
+}
+
 p {
     font-size: 0.25em
 }
