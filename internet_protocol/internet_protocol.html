@@ -56,84 +56,63 @@
             <li><article class="anchor">
                 <details>
                     <summary class="frameTitle">FTP</summary>
-                    <p class="frameContent">Port: 21<br><abbr title="File Transfer Protocol">FTP</abbr> is the protocol that handles transfering files from one device to another. It operates by considering one device as a server and the other as a client, thereby allowing the client to send and request files from the server<br><abbr title="File Transfer Protocol over Secure Sockets Layer"><b>FTP/S</b></abbr><br>Port: 900<br>This protocol allows FTP over a secure encryption using <abbr title="Secure Sockets Layer">SSL</abbr>.<br><abbr title="Secure File Transfer Protocol"><b>SFTP</b></abbr><br>This protocol allows FTP over a secure encryption using <abbr title="Secure Shell">SSH</abbr>.  </p>
+                    <p class="frameContent">Port: 21<br><abbr title="File Transfer Protocol">FTP</abbr> is the protocol that handles transfering files from one device to another. It operates by considering one device as a server and the other as a client, thereby allowing the client to send and request files from the server<br><abbr class="title" title="File Transfer Protocol over Secure Sockets Layer"><b>FTP/S</b></abbr><br>Port: 900<br>This protocol allows FTP over a secure encryption using <abbr title="Secure Sockets Layer">SSL</abbr>.<br><abbr class="title" title="Secure File Transfer Protocol"><b>SFTP</b></abbr><br>This protocol allows FTP over a secure encryption using <abbr title="Secure Shell">SSH</abbr>.  </p>
                 </details>
             </article></li>
 
             <li><article class="anchor">
                 <details>
                     <summary class="frameTitle">HTTP</summary>
-                    <p class="frameContent">Port: 80<br><abbr title="HyperText Transfer Protocol">HTTP</abbr> is the protocol that handles the transfer of <abbr title="digital pages a user can read that directly reference other pages the user can look at">hypertext</abbr> between one or multiple systems. It is designed using the client-server principles; allowing a client to make a request after forming a connection with the server, at which point the server responds however it is programmed.</p>
-                </details>
-            </article></li>
-
-            <li><article class="anchor">
-                <details>
-                    <summary class="frameTitle">HTTPS</summary>
-                    <p class="frameContent">Port: 443<br> </p>
+                    <p class="frameContent">Port: 80<br><abbr title="HyperText Transfer Protocol">HTTP</abbr> is the protocol that handles the transfer of <abbr title="digital pages a user can read that directly reference other pages the user can look at">hypertext</abbr> between one or multiple systems. It is designed using the client-server principles; allowing a client to make a request after forming a connection with the server, at which point the server responds however it is programmed.<br><abbr class="title" title="HyperText Transfer Protocol Secure"><b>HTTPS</b></abbr><br>Port: 443<br>This protocol allows HTTPs over a secure encryption using <abbr title="Secure Sockets Layer">SSL</abbr>.</p>
                 </details>
             </article></li>
 
             <li><article class="anchor">
                 <details>
                     <summary class="frameTitle">SMTP</summary>
-                    <p class="frameContent">Ports: 25,465,587<br> </p>
+                    <p class="frameContent">Ports: <abbr title="Non-Encrypted">25</abbr>,<abbr title="Secured with SSL">465</abbr>,<abbr title="Secured with StartTLS">587</abbr><br><abbr title="Simple Mail Transport Protocol">SMTP</abbr> is the protocol that handles the task of sending and then distributing E-Mail. It operates by seperating strings of text from the users message with code words that identify the purpose of each string and that the server can interpret. The messages can sometime pass through other devices other than it's destination. </p>
                 </details>
             </article></li>
 
             <li><article class="anchor">
                 <details>
                     <summary class="frameTitle">POP3</summary>
-                    <p class="frameContent">Port: 110<br> </p>
+                    <p class="frameContent">Port: 110<br><abbr title="Post Office Protocol 3">POP3</abbr> is the protocol that handles receiving e-mails that are unsecure. It operates by downloading messages to a local device and then removing it from the e-mail server. </p>
                 </details>
             </article></li>
-
+            
             <li><article class="anchor">
                 <details>
-                    <summary class="frameTitle">VoIP</summary>
-                    <p class="frameContent">Basic Port: 5060, 5004 UDP<br> </p>
+                    <summary class="frameTitle">IMAP4</summary>
+                    <p class="frameContent">Ports: <abbr title="Non-Encrypted, or Secured with StartTLS">143</abbr>,<abbr title="Secured with SSL"> 993</abbr><br><abbr title="Internet Message Access Protocol 4">IMAP4</abbr> is the protocol that handles secure e-mail aquisition by accessing a remote server with a local client. </p>
                 </details>
             </article></li>
 
             <li><article class="anchor">
                 <details>
                     <summary class="frameTitle">SSH</summary>
-                    <p class="frameContent">Port: 22<br> </p>
+                    <p class="frameContent">Port: 22<br><abbr title="Secure Shell">SSH</abbr> is the protocol that secures a connection between a client and a server. This operates by creating a tunnel using cryptographic keys between the client and the server. This allows secure communication between the 2 devices. </p>
                 </details>
             </article></li>
 
             <li><article class="anchor">
                 <details>
                     <summary class="frameTitle">Telnet</summary>
-                    <p class="frameContent">Port: 23<br> </p>
-                </details>
-            </article></li>
-
-            <li><article class="anchor">
-                <details>
-                    <summary class="frameTitle">IMAP4</summary>
-                    <p class="frameContent">Ports: 143,993<br> </p>
+                    <p class="frameContent">Port: 23<br>Telnet is a group of rules that systems follow when trying to establish a remote connection. It operates by allowing a two-way CLI connection to the remote device. </p>
                 </details>
             </article></li>
 
             <li><article class="anchor">
                 <details>
                     <summary class="frameTitle">SNMP</summary>
-                    <p class="frameContent">Port: 161<br> </p>
+                    <p class="frameContent">Port: 161<br><abbr title="Simple Network Managment Protocol">SNMP</abbr> is the protocol that handles network monitoring. It operates by communicating with devices that "speak" SNMP using Get-Requests, allowing the user to be able to track any data values specified.  </p>
                 </details>
             </article></li>
 
             <li><article class="anchor">
                 <details>
                     <summary class="frameTitle">ARP</summary>
-                    <p class="frameContent">Port: 219<br> </p>
-                </details>
-            </article></li>
-
-            <li><article class="anchor">
-                <details>
-                    <summary class="frameTitle">SIP</summary>
-                    <p class="frameContent">Port: 5060, 5061<br> </p>
+                    <p class="frameContent">Port: 219<br><abbr title="Address Resolution Protocol">ARP</abbr> is the protocol that handles mapping dynamic IP addresses to a physical MAC address. It operates on <abbr title ="where the MAC address is">Layer 2</abbr> and <abbr title="where the IP address is">Layer 3</abbr> by keeping a cache of unique IP address and their equivalent MAC address. If, when a request is made, the requested address is already in the cahce, it is just returned. Otherwise, it translates and finds the equivalent address.</p>
                 </details>
             </article></li>
         </ul>

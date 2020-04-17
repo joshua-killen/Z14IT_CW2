@@ -30,13 +30,17 @@ summary {
     
 }
 
+abbr {
+    cursor: pointer;
+}
+
 details[open] summary {
     list-style-image: url(sitewide_assets/power_green.png);
 }
 
 .title {
   border-bottom: none;
-  cursor: inherit;
+  cursor: pointer;
   text-decoration: none;
 }
 
