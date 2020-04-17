@@ -1,1 +1,13 @@
-sdfgsdfgsdg
+ARCLAB, , A List of SMTP and IMAP Server. Available: https://www.arclab.com/en/kb/email/list-of-smtp-and-imap-servers-mailserver-list.html [Apr 17, 2020].
+
+BBC BITESIZE, , Internet protocols - The internet - GCSE Computer Science Revision. Available: https://www.bbc.co.uk/bitesize/guides/zp9jpv4/revision/6 
+	[Apr 17, 2020].
+EXAMCOLLECTION, , Overview of common TCP and UDP default ports. Available: https://www.examcollection.com/certification-training/network-plus-overview-of
+	-common-tcp-and-udp-default-ports.html [Apr 17, 2020].
+
+W3, , The Internet Protocol Sack
+	. Available: https://www.w3.org/People/Frystyk/thesis/TcpIp.html [Apr 17, 2020].
+
+W3SCHOOLS, , Types of Network Protocols and Their Uses. Available: https://www.w3schools.in/types-of-network-protocols-and-their-uses/ [Apr 17, 2020].
+
+WHATISMYIPADDRESS, , What Is Simple Mail Transfer Protocol?. Available: https://whatismyipaddress.com/smtp [Apr 17, 2020].
