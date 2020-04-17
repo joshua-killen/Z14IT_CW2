@@ -4,6 +4,7 @@ article img {
 }
 
 .aboutTitle {
+    font-family: neon80;
     font-size: 0.5em
 }
 
@@ -16,6 +17,5 @@ p .aboutContent {
 }
 
 p .aboutTitle {
-    font-family: neon80;
     font-size: 2em;
 }
