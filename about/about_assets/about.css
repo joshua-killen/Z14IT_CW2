@@ -1,11 +1,10 @@
 article img {
     border: 4px solid #f2f2f2;
-    align-content: flex-start;
+    vertical-align: text-top;
 }
 
 article {
     font-size: 4vw;
-    text-align: right;
 }
 
 .aboutMe {
