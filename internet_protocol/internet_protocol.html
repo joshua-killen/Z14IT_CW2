@@ -13,8 +13,9 @@
     
         <link rel="stylesheet" href="../../main.css" type="text/css">
         <link rel="stylesheet" href="../../sitewide_assets/navbar/navbar.css" type="text/css">
-        <link rel="stylesheet" href="osi_model_assets/networking.css" type="text/css">
+        <link rel="stylesheet" href="../../sitewide_assets/filter_search/filter_search.css" type="text/css">
         <script src="../../sitewide_assets/navbar/navbar.js"></script>
+        <script src="../../sitewide_assets/filter_search/filter_search.js"></script>
         
         <title>Networking-Internet Protocols: Z14IT-Internet Fundamentals</title>
 </head>
@@ -48,76 +49,183 @@
         
         <h1>Internet Protocols</h1>
         
-        <article>
-            <details class="networkContainer" open>
-                <summary class="networkTitle">IPv4</summary>
-                <p class="networkContent">gang</p>
-            </details>
-        </article>
+        <input type="text" id="searchInput" onkeyup="search()" placeholder="Search for tag...">
         
-        <article>
-            <details class="networkContainer" open>
-                <summary class="networkTitle">IPv6</summary>
-                <p class="networkContent">gang</p>
-            </details>
-        </article>
         
-        <article>
-            <details class="networkContainer" open>
-                <summary class="networkTitle">TCP</summary>
-                <p class="networkContent">gang</p>
-            </details>
-        </article>
-        
-        <article>
-            <details class="networkContainer" open>
-                <summary class="networkTitle">UDP</summary>
-                <p class="networkContent">gang</p>
-            </details>
-        </article>
-        
-        <article>
-            <details class="networkContainer" open>
-                <summary class="networkTitle">Internet Name Resolution</summary>
-                <p class="networkContent">gang</p>
-            </details>
-        </article>
-        
-        <article>
-            <details class="networkContainer" open>
-                <summary class="networkTitle"><abbr title="Points of Presence">PoP</abbr></summary>
-                <p class="networkContent">gang</p>
-            </details>
-        </article>
-        
-        <article>
-            <details class="networkContainer" open>
-                <summary class="networkTitle">DNS</summary>
-                <p class="networkContent">gang</p>
-            </details>
-        </article>
-        
-        <article>
-            <details class="networkContainer" open>
-                <summary class="networkTitle">DHCP</summary>
-                <p class="networkContent">gang</p>
-            </details>
-        </article>
-        
-        <article>
-            <details class="networkContainer" open>
-                <summary class="networkTitle">Routing</summary>
-                <p class="networkContent">gang</p>
-            </details>
-        </article>
-        
+        <ul id="referenceList">
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">IPv4</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">IPv6</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">TCP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">UDP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">FTP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">HTTP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">HTTPS</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">SMTP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">POP3</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">VoIP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">NAT</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">PAT</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">SSH</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">Telnet</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">IMAP4</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">SNMP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">ARP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">SIP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">RTP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">RLP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">RAP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">L2TP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">PPTP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+
+            <li><article class="anchor">
+                <details>
+                    <summary class="frameTitle">TFTP</summary>
+                    <p class="frameContent">gang</p>
+                </details>
+            </article></li>
+        </ul>
         <footer>
-            <div class="footer">
-                <a class="about" href="../../../about/about.html">About the Website</a><br>
-                <a href="../../sitewide_assets/bibliography.pdf" download="KILLEN_Joshua_Bibliography" target="_blank">Bibliography</a><br>
-                <a class="contact" href="../../../about/about.html">Contact Us</a><br>
-                <a class="sitemap" href="">Sitemap</a>
-            </div>
+            <a class="about" href="../../../about/about.html">About the Website</a><br>
+            <a href="../../sitewide_assets/bibliography.pdf" download="KILLEN_Joshua_Bibliography" target="_blank">Bibliography</a><br>
+            <a class="contact" href="../../../about/about.html">Contact Us</a><br>
+            <a class="sitemap" href="">Sitemap</a>
         </footer>
     </body>
 </html>
