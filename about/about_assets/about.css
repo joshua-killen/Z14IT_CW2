@@ -53,7 +53,7 @@ summary {
     padding-bottom: 2em
 }
 
-h1 {
+.headImg {
     background-image: url(internet.png);
     width: 100%;
     background-repeat: no-repeat;
