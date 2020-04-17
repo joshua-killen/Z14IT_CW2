@@ -1,6 +1,14 @@
 article img {
     border: 4px solid #f2f2f2;
+}
+
+.imgLeft {
     float: left;
+}
+
+
+.imgRight {
+    float: right;
 }
 
 .aboutTitle {
