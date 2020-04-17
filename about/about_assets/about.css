@@ -1,7 +1,3 @@
-h1 {
-    padding-bottom: 14.2em;
-}
-
 article img {
     border: 4px solid #f2f2f2;
 }
@@ -49,6 +45,8 @@ p .aboutTitle {
     background-image: url(internet.png);
     width: 100%;
     background-repeat: no-repeat;
+    padding-top: 0;
+    padding-bottom: 14.2em;
 }
 
 #jkillen {
