@@ -2,6 +2,15 @@ article img {
     border: 4px solid #f2f2f2;
 }
 
+summary {
+    list-style-image: none;
+    cursor: pointer;
+}
+
+details[open] summary {
+    list-style-image: none;
+}
+
 .imgLeft {
     float: left;
     margin-right: 0.4em;
@@ -27,7 +36,11 @@ article img {
 }
 
 #uniContent:after {
-    content: "+"
+    list-style-image: url(../../sitewide_assets/power_red.png);
+}
+
+details[open] summary #uniContent:after {
+    list-style-image: url(../../sitewide_assets/power_green.png);
 }
 
 #siteContent {
