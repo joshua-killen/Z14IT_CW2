@@ -22,23 +22,10 @@ h2 {
     font-family: neon80;
 }
 
-details {
-    font-size: 4vw;
-}
-
-p {
-    font-size: 0.5em;
-}
-
-summary {
-    font-family: neon80
-    font-size: 1em
-}
-
 abbr {
-  border-bottom: none !important;
-  cursor: inherit !important;
-  text-decoration: none !important;
+  border-bottom: none;
+  cursor: inherit;
+  text-decoration: none;
 }
 
 .footer {
