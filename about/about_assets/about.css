@@ -7,9 +7,6 @@ summary {
     cursor: pointer;
 }
 
-header {
-    padding-bottom: 0;
-}
 .imgLeft {
     float: left;
 }
@@ -46,10 +43,10 @@ p .aboutTitle {
 
 .headImg {
     background-image: url(internet.png);
-    width: 100%;
+    width: 100vw;
     background-repeat: no-repeat;
     padding-top: 0;
-    padding-bottom: 14.2em;
+    padding-bottom: 50.2em;
 }
 
 #jkillen {
