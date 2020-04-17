@@ -9,10 +9,6 @@
 }
 
 summary {
-  list-style-image: url(arrow.png);
-}
-
-summary::-webkit-details-marker {
-  background: url(arrow.png);
-  color: transparent;
+    list-style-type: none;
+    cursor: pointer;
 }

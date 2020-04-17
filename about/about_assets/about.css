@@ -36,6 +36,7 @@ p .aboutTitle {
     clear: both;
 }
 
-summary::-webkit-details-marker {
-  background: none;
+summary {
+    list-style-type: none;
+    cursor: pointer;
 }
