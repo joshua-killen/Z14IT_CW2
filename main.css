@@ -52,6 +52,34 @@ footer a {
     font-size: 4vw;
 }
 
+.frameTitle {
+    font-family: neon80;
+    font-size: 0.5em
+}
+
+.frameContent {
+    font-size: 0.25em;
+}
+
+p {
+    font-size: 0.25em
+}
+
+p .frameContent {
+    font-size: 1em;
+}
+
+p .frameTitle {
+    font-size: 2em;
+}
+
+.headImg {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 0;
+    padding-bottom: 25em;
+}
+
 .reference {
     font-size: 0.125em;
 }
