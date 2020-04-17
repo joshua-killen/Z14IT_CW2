@@ -35,3 +35,7 @@ p .aboutTitle {
 .nextLine {
     clear: both;
 }
+
+details {
+    list-style: none;
+}
