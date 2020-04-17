@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+        <meta name="keywords" content="Internet Fundamentals, Networking, Web Design, University, Coventry, CUC, 2020, CW2">
+        <meta name="description" content="An accessible, online resource for learning the fundamentals of the internet, web design, and networking. This was created for coursework for unit Z14IT 2020 by Joshua Killen Student ID: 9449871">
+        <meta name="author" content="Joshua Killen">
+        <meta http-equiv="refresh" content="60">
+        <meta name="viewport" content="width=device-width, initial=scale=1.0">
+        <meta charset="utf-8">
+    
+        <base target ="_self">
+        
+        <link rel="stylesheet" href="../../main.css" type="text/css">
+        <link rel="stylesheet" href="../../sitewide_assets/navbar/navbar.css" type="text/css">
+        <link rel="stylesheet" href="html_assets/html.css" type="text/css">
+        <script type="text/javascript" src="../../sitewide_assets/navbar/navbar.js"></script>
+        <script src="html_assets/html.js"></script>
+    
+        
+        <title>Web Design-HTML: Z14IT-Internet Fundamentals</title>  
+    </head>
+    <body>
+        <header>
+            <img src="../../sitewide_assets/logo.gif" alt="JKLearns">
+            <img class="uniLogo" src="../../sitewide_assets/cuc_logo.png" alt="CU Coventry" width="259" height="59" align="right">
+
+            <div class="navBar" id="navBar">
+                <a href="../../home/home.html">Home</a>
+                <a href="">Evolution of The Internet</a>
+                <div class="dropDown">
+                    <button class="networkDropBtn" onclick="networkDrop()">Networking</button>
+                    <div class="networkDrop-content" id="networkDrop">
+                        <a href="../../networking/osi_model/osi_model.html">OSI Model</a>
+                        <a href="../../networking/routing/routing.html">Routing</a>
+                        <a href="../../networking/internet_protocols/ip.html">Internet Protocols</a>
+                        <a href="../../networking/ipv4/ipv4.html">IPv4</a>
+                        <a href="../../networking/ipv6/ipv6.html">IPv6</a>
+                        <a href="../../networking/tcp/tcp.html">TCP</a>
+                        <a href="../../networking/udp/udp.html">UDP</a>
+                        <a href="../../networking/internet_name_resolution/inr.html">Internet Name Resolution</a>
+                        <a href="../../networking/pop/pop.html">PoP</a>
+                        <a href="../../networking/dns/dns.html">DNS</a>
+                        <a href="../../networking/dchp/dchp.html">DCHP</a>
+                    </div>
+                </div>
+                <div class="dropDown">
+                    <button class="webDropBtn" onclick="webDrop()">Web Design</button>
+                    <div class="webDrop-content" id="webDrop">
+                        <a class="active" href="../html.html">HTML</a>
+                        <a href="../../css/css.html">CSS</a>
+                        <a href="../../javascript/javascript.html">JavaScript</a>
+                    </div>
+                </div>
+                <a href="../../contact/contact.html">Contact</a>
+                <a href="../../about/about.html">About</a>
+            </div>
+        </header>
+        
+        <h1><abbr title="HyperText Markup Language">HTML</abbr> Quick Reference Guide</h1>
+        
+         <input type="text" id="searchInput" onkeyup="search()" placeholder="Search for tag...">
+
+        <ul id="referenceList">
+            <li><details>
+                    <summary></summary>
+                    <p></p>
+                </details></li>
+            <li><details>
+                    <summary></summary>
+                    <p></p>
+                </details></li>
+            <li><details>
+                    <summary></summary>
+                    <p></p>
+                </details></li>
+            <li><details>
+                    <summary></summary>
+                    <p></p>
+                </details></li>
+        </ul> 
+        <footer>
+            <div class="footer">
+                <a class="about" href="../../../about/about.html">About the Website</a><br>
+                <a href="../../sitewide_assets/bibliography.pdf" download="KILLEN_Joshua_Bibliography" target="_blank">Bibliography</a><br>
+                <a class="contact" href="../../../contact/contact.html">Contact Us</a><br>
+                <a class="sitemap" href="">Sitemap</a>
+            </div>
+        </footer>
+    </body>
+</html>

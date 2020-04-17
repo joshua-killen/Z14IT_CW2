@@ -1,0 +1,16 @@
+#searchInput {
+    width: 99%;
+    font-size: 1.5vw;
+    border: 1px solid black;
+    margin-bottom: 1vh;
+}
+
+#referenceList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#referenceList li details {
+    
+}
