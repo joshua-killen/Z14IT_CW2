@@ -11,13 +11,11 @@ article {
     font-size: 4vw
 }
 
-.aboutContent {
+article .aboutContent {
     font-size: 0.25em;
-    display: inline-block
-
 }
 
-.aboutTitle {
+article .aboutTitle {
     font-family: neon80;
     font-size: 0.5em;
 }
