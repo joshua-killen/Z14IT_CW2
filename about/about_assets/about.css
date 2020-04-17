@@ -1,6 +1,6 @@
 article img {
     border: 4px solid #f2f2f2;
-    vertical-align: text-top;
+    float: left;
 }
 
 article {
