@@ -36,6 +36,6 @@ p .aboutTitle {
     clear: both;
 }
 
-details {
-    list-style: none;
+details summary:after {
+    content: "";
 }
