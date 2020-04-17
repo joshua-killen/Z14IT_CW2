@@ -16,6 +16,7 @@ body {
 
 h1 {
     font-family: neon80;
+    font-size: 5vw;
 }
 
 h2 {
@@ -23,7 +24,7 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 1.5vw;
 }
 
 .footer {
