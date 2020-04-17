@@ -3,8 +3,8 @@ article img {
     float: left;
 }
 
-article {
-    font-size: 4vw;
+aboutTitle {
+    font-size: 0.5em
 }
 
 p {
