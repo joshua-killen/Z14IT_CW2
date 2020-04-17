@@ -3,6 +3,7 @@
   background-color: #373737;
   overflow: hidden;
   font-family: neon80;
+position: sticky;
 }
 
 /* Style the text*/
