@@ -1,5 +1,6 @@
 details img {
     border: 4px solid #f2f2f2;
+    align-content: left;
 }
 
 article {
