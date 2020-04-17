@@ -1,5 +1,14 @@
+h1 {
+    padding-bottom: 14.2em;
+}
+
 article img {
     border: 4px solid #f2f2f2;
+}
+
+summary {
+    list-style-type: none;
+    cursor: pointer;
 }
 
 .imgLeft {
@@ -36,9 +45,10 @@ p .aboutTitle {
     clear: both;
 }
 
-summary {
-    list-style-type: none;
-    cursor: pointer;
+.headImg {
+    background-image: url(internet.png);
+    width: 100%;
+    background-repeat: no-repeat;
 }
 
 #jkillen {
@@ -53,12 +63,7 @@ summary {
     padding-bottom: 2em
 }
 
-.headImg {
-    background-image: url(internet.png);
-    width: 100%;
-    background-repeat: no-repeat;
+#webTitle {
+    padding-top: none;
 }
 
-h1 {
-    padding-bottom: 14.5em;
-}
